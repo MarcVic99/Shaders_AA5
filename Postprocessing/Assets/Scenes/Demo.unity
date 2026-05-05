@@ -2216,16 +2216,26 @@ MonoBehaviour:
     material: {fileID: 2100000, guid: eedf4fdb2ece7eb4bb572713a2d6ffd4, type: 2}
     keyword: _VIGNETTE_ON
     toggleKey: 41
-    startEnabled: 1
+    startEnabled: 0
   - effectName: ColorGradient
     material: {fileID: 2100000, guid: c3f3d14bf7b610c42b7da53cd960b708, type: 2}
     keyword: _COLOR_GRADIENT_ON
     toggleKey: 42
-    startEnabled: 1
+    startEnabled: 0
   - effectName: Pixelated
     material: {fileID: 2100000, guid: 2729dd307b7ab90409f165395aa61b04, type: 2}
     keyword: _PIXELATED_ON
     toggleKey: 43
+    startEnabled: 0
+  - effectName: CRTLines
+    material: {fileID: 2100000, guid: 5deee6d3a6caff346858acb4d8b2d9f5, type: 2}
+    keyword: _CRTLINES_ON
+    toggleKey: 44
+    startEnabled: 1
+  - effectName: ChromaticAberration
+    material: {fileID: 2100000, guid: 77cf3af6dabfcb649aacc9a80d110b14, type: 2}
+    keyword: _CHROMATIC_ABERRATION_ON
+    toggleKey: 45
     startEnabled: 1
 --- !u!4 &1871535280
 Transform:
