@@ -2216,7 +2216,7 @@ MonoBehaviour:
     material: {fileID: 2100000, guid: eedf4fdb2ece7eb4bb572713a2d6ffd4, type: 2}
     keyword: _VIGNETTE_ON
     toggleKey: 41
-    startEnabled: 0
+    startEnabled: 1
   - effectName: ColorGradient
     material: {fileID: 2100000, guid: c3f3d14bf7b610c42b7da53cd960b708, type: 2}
     keyword: _COLOR_GRADIENT_ON
@@ -2229,14 +2229,19 @@ MonoBehaviour:
     startEnabled: 0
   - effectName: CRTLines
     material: {fileID: 2100000, guid: 5deee6d3a6caff346858acb4d8b2d9f5, type: 2}
-    keyword: _CRTLINES_ON
+    keyword: _CRT_LINES_ON
     toggleKey: 44
-    startEnabled: 1
+    startEnabled: 0
   - effectName: ChromaticAberration
     material: {fileID: 2100000, guid: 77cf3af6dabfcb649aacc9a80d110b14, type: 2}
     keyword: _CHROMATIC_ABERRATION_ON
     toggleKey: 45
-    startEnabled: 1
+    startEnabled: 0
+  - effectName: LensDistortion
+    material: {fileID: 2100000, guid: 898352ffed29a3945850cc9b17282d9c, type: 2}
+    keyword: _LENS_DISTORTION_ON
+    toggleKey: 46
+    startEnabled: 0
 --- !u!4 &1871535280
 Transform:
   m_ObjectHideFlags: 0
