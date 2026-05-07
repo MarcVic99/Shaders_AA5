@@ -1,0 +1,93 @@
+%YAML 1.1
+%TAG !u! tag:unity3d.com,2011:
+--- !u!21 &2100000
+Material:
+  serializedVersion: 8
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_Name: Custom_VertexPaint
+  m_Shader: {fileID: 4800000, guid: fe6273806b0f4ca47bf8e0349df67c4d, type: 3}
+  m_Parent: {fileID: 0}
+  m_ModifiedSerializedProperties: 0
+  m_ValidKeywords: []
+  m_InvalidKeywords: []
+  m_LightmapFlags: 4
+  m_EnableInstancingVariants: 0
+  m_DoubleSidedGI: 0
+  m_CustomRenderQueue: -1
+  stringTagMap: {}
+  disabledShaderPasses: []
+  m_LockedProperties: 
+  m_SavedProperties:
+    serializedVersion: 3
+    m_TexEnvs:
+    - _AAlbedo:
+        m_Texture: {fileID: 2800000, guid: f32158ce34a10d14499736395c929f7e, type: 3}
+        m_Scale: {x: 1, y: 1}
+        m_Offset: {x: 0, y: 0}
+    - _AMAOHS:
+        m_Texture: {fileID: 2800000, guid: 3044f904992e0ba4488ca624f64c4a6e, type: 3}
+        m_Scale: {x: 1, y: 1}
+        m_Offset: {x: 0, y: 0}
+    - _AMask:
+        m_Texture: {fileID: 2800000, guid: 3044f904992e0ba4488ca624f64c4a6e, type: 3}
+        m_Scale: {x: 1, y: 1}
+        m_Offset: {x: 0, y: 0}
+    - _ANormal:
+        m_Texture: {fileID: 2800000, guid: e4df562360a46244ea5cbdc370ce036e, type: 3}
+        m_Scale: {x: 1, y: 1}
+        m_Offset: {x: 0, y: 0}
+    - _BAlbedo:
+        m_Texture: {fileID: 2800000, guid: 707355b53b422974ea75ec94ea88778d, type: 3}
+        m_Scale: {x: 1, y: 1}
+        m_Offset: {x: 0, y: 0}
+    - _BMAOHS:
+        m_Texture: {fileID: 2800000, guid: fd14513970ff2a040a4171f76d7cce8a, type: 3}
+        m_Scale: {x: 1, y: 1}
+        m_Offset: {x: 0, y: 0}
+    - _BMask:
+        m_Texture: {fileID: 2800000, guid: fd14513970ff2a040a4171f76d7cce8a, type: 3}
+        m_Scale: {x: 1, y: 1}
+        m_Offset: {x: 0, y: 0}
+    - _BNormal:
+        m_Texture: {fileID: 2800000, guid: 89323180e2e8b064693456478ce554b4, type: 3}
+        m_Scale: {x: 1, y: 1}
+        m_Offset: {x: 0, y: 0}
+    - _NoiseTexA:
+        m_Texture: {fileID: 2800000, guid: 090f7313fc5899546a3fb9aad6f1cdd0, type: 3}
+        m_Scale: {x: 1, y: 1}
+        m_Offset: {x: 0, y: 0}
+    - _NoiseTexB:
+        m_Texture: {fileID: 2800000, guid: 090f7313fc5899546a3fb9aad6f1cdd0, type: 3}
+        m_Scale: {x: 1, y: 1}
+        m_Offset: {x: 0, y: 0}
+    - _SnowAlbedo:
+        m_Texture: {fileID: 2800000, guid: 5432f4434d99350438420d18b4f48516, type: 3}
+        m_Scale: {x: 1, y: 1}
+        m_Offset: {x: 0, y: 0}
+    - _SnowMask:
+        m_Texture: {fileID: 2800000, guid: b5431db50feb4cd46872d93dd3c5adb4, type: 3}
+        m_Scale: {x: 1, y: 1}
+        m_Offset: {x: 0, y: 0}
+    - _SnowNormal:
+        m_Texture: {fileID: 2800000, guid: 798a856cf307bdb4384d6217886c12d8, type: 3}
+        m_Scale: {x: 1, y: 1}
+        m_Offset: {x: 0, y: 0}
+    m_Ints: []
+    m_Floats:
+    - _BlendDistance: 0.5
+    - _DisplacementStrength: 0.2
+    - _NoiseScale: 1
+    - _NoiseScaleA: 1
+    - _NoiseScaleB: 4
+    - _SnowAO: 1
+    - _SnowBlendDistance: 0.2
+    - _SnowMetallic: 0
+    - _SnowSmoothness: 1
+    - _UVScale: 0.2
+    - _VerticalDisplacement: 0.2
+    m_Colors: []
+  m_BuildTextureStacks: []
+  m_AllowLocking: 1
