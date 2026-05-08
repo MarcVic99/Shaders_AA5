@@ -20,6 +20,26 @@ MonoBehaviour:
   passIndex: 0
   bindDepthStencilAttachment: 0
   m_Version: 1
+--- !u!114 &-6139326881516575290
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: b00045f12942b46c698459096c89274e, type: 3}
+  m_Name: RFScanner
+  m_EditorClassIdentifier: Unity.RenderPipelines.Universal.Runtime::UnityEngine.Rendering.Universal.FullScreenPassRendererFeature
+  m_Active: 1
+  injectionPoint: 600
+  fetchColorBuffer: 1
+  requirements: 5
+  passMaterial: {fileID: 2100000, guid: 5b331e1a2d7eb7b48aaaf9cd514d17a8, type: 2}
+  passIndex: 0
+  bindDepthStencilAttachment: 0
+  m_Version: 1
 --- !u!114 &-4554536267032946067
 MonoBehaviour:
   m_ObjectHideFlags: 0
@@ -112,7 +132,8 @@ MonoBehaviour:
   - {fileID: -843045456554585773}
   - {fileID: 1267719223389862059}
   - {fileID: 8927994897805457557}
-  m_RendererFeatureMap: ad6b866f10d7b46c0a1cf31c0c0a50986d1ade666509cbc0bf9b812e8d181efd53918eb89fe64cf4ab3816c1ead7971195b831980e9ce67b
+  - {fileID: -6139326881516575290}
+  m_RendererFeatureMap: ad6b866f10d7b46c0a1cf31c0c0a50986d1ade666509cbc0bf9b812e8d181efd53918eb89fe64cf4ab3816c1ead7971195b831980e9ce67bc6a53293babaccaa
   m_UseNativeRenderPass: 1
   xrSystemData: {fileID: 0}
   postProcessData: {fileID: 11400000, guid: 41439944d30ece34e96484bdb6645b55, type: 2}
