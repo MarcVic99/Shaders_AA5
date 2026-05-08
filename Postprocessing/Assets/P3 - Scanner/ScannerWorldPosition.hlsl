@@ -1,12 +1,12 @@
 #ifndef SCANNER_WORLD_POSITION_INCLUDED
 #define SCANNER_WORLD_POSITION_INCLUDED
 
-#include "Packages/com.unity.render-pipelines.universal/ShaderLibrary/Core.hlsl"
-#include "Packages/com.unity.render-pipelines.universal/ShaderLibrary/DeclareDepthTexture.hlsl"
-
 void GetWorldPosition_float(float2 UV, out float3 WorldPos)
 {
-    float depth = SampleSceneDepth(UV);
+#if defined(SHADERGRAPH_PREVIEW)
+    WorldPos = float3(0.0, 0.0, 0.0);
+#else
+    float depth = SHADERGRAPH_SAMPLE_SCENE_DEPTH(UV);
 
 #if UNITY_REVERSED_Z
     float rawDepth = depth;
@@ -15,6 +15,18 @@ void GetWorldPosition_float(float2 UV, out float3 WorldPos)
 #endif
 
     WorldPos = ComputeWorldSpacePosition(UV, rawDepth, UNITY_MATRIX_I_VP);
+#endif
+}
+
+void GetWorldPosition_half(half2 UV, out half3 WorldPos)
+{
+#if defined(SHADERGRAPH_PREVIEW)
+    WorldPos = half3(0.0, 0.0, 0.0);
+#else
+    float3 worldPosFloat;
+    GetWorldPosition_float((float2) UV, worldPosFloat);
+    WorldPos = (half3) worldPosFloat;
+#endif
 }
 
 #endif
