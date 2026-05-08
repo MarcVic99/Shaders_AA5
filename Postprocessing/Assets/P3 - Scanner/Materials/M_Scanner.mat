@@ -11,8 +11,7 @@ Material:
   m_Shader: {fileID: -6465566751694194690, guid: 0b6d05c7210f9ce4184c605074d0775e, type: 3}
   m_Parent: {fileID: 0}
   m_ModifiedSerializedProperties: 0
-  m_ValidKeywords:
-  - _SCANNER_ON
+  m_ValidKeywords: []
   m_InvalidKeywords: []
   m_LightmapFlags: 4
   m_EnableInstancingVariants: 0
@@ -112,7 +111,7 @@ Material:
     - _Parallax: 0.005
     - _QueueOffset: 0
     - _ReceiveShadows: 1
-    - _SCANNER: 1
+    - _SCANNER: 0
     - _ScanFrequency: 1
     - _ScanSize: 10
     - _ScanSpeed: 0.2
