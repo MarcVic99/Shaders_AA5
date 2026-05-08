@@ -11,7 +11,8 @@ Material:
   m_Shader: {fileID: -6465566751694194690, guid: 0b6d05c7210f9ce4184c605074d0775e, type: 3}
   m_Parent: {fileID: 0}
   m_ModifiedSerializedProperties: 0
-  m_ValidKeywords: []
+  m_ValidKeywords:
+  - _SCANNER_ON
   m_InvalidKeywords: []
   m_LightmapFlags: 4
   m_EnableInstancingVariants: 0
@@ -85,6 +86,9 @@ Material:
     - _AddPrecomputedVelocity: 0
     - _AlphaClip: 0
     - _AlphaToMask: 0
+    - _BandFeather: 0.3
+    - _BandHalfWidth: 4
+    - _BandWidth: 2
     - _Blend: 0
     - _BlendModePreserveSpecular: 1
     - _BumpScale: 1
@@ -100,10 +104,10 @@ Material:
     - _GlossMapScale: 0
     - _Glossiness: 0
     - _GlossyReflections: 0
-    - _GridIntensity: 1
-    - _GridScale: 3
-    - _GridThickness: 0.15
-    - _InteriorInfluence: 1
+    - _GridIntensity: 0.7
+    - _GridScale: 2
+    - _GridThickness: 0.08
+    - _InteriorInfluence: 0.8
     - _LineAmount: 1
     - _MaxEffectDistance: 40
     - _Metallic: 0
@@ -111,10 +115,10 @@ Material:
     - _Parallax: 0.005
     - _QueueOffset: 0
     - _ReceiveShadows: 1
-    - _SCANNER: 0
-    - _ScanFrequency: 1
-    - _ScanSize: 10
-    - _ScanSpeed: 0.2
+    - _SCANNER: 1
+    - _ScanFrequency: 0.5
+    - _ScanSize: 30
+    - _ScanSpeed: 8
     - _Smoothness: 0.5
     - _SmoothnessTextureChannel: 0
     - _SpecularHighlights: 1
@@ -128,7 +132,7 @@ Material:
     - _BaseColor: {r: 1, g: 1, b: 1, a: 1}
     - _Color: {r: 1, g: 1, b: 1, a: 1}
     - _EmissionColor: {r: 0, g: 0, b: 0, a: 1}
-    - _OutlineColor: {r: 0, g: 0.59848046, b: 1, a: 1}
+    - _OutlineColor: {r: 0, g: 0.5206356, b: 1, a: 1}
     - _ScannerOrigin: {r: 31.17, g: 4.07, b: 68.4, a: 0}
     - _SpecColor: {r: 0.19999996, g: 0.19999996, b: 0.19999996, a: 1}
   m_BuildTextureStacks: []
