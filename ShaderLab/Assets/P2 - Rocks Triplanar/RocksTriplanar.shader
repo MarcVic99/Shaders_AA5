@@ -30,9 +30,6 @@ Shader "Custom/Rock_Triplanar"
         #pragma surface surf Standard fullforwardshadows vertex:vert
         #pragma target 3.0
 
-        // Keyword requerido por el enunciado.
-        // OFF = coordenadas globales/world
-        // ON  = coordenadas locales/object
         #pragma multi_compile _ _TRIPLANAR_LOCAL_SPACE
 
         sampler2D _Albedo;
@@ -139,10 +136,6 @@ Shader "Custom/Rock_Triplanar"
             o.Albedo = albedo.rgb;
             o.Normal = normal;
 
-            // Interpretación típica de un packed map:
-            // R = Metallic
-            // G = Ambient Occlusion
-            // A = Smoothness
             o.Metallic = maohs.r;
             o.Occlusion = maohs.g;
             o.Smoothness = maohs.a;
